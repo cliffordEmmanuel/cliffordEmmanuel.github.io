@@ -12,14 +12,14 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Clifford Emmanuel Akai-Nettey"
+title                    : "Clifford E. Akai-Nettey"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Clifford Emmanuel Akai-Nettey"
+name                     : "Clifford E. Akai-Nettey"
 description              : "Data Science Portfolio."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -129,7 +129,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/cliffordEmmanuel"
     - label: "LinkedIn"
-      icon: <i class="fab fa-linkedin-in"></i>
+      icon: "fab fa-linkedin-in"
       url: "https://www.linkedin.com/in/cliffordemmanuelakai-nettey/"
 
 # Site Footer
@@ -143,7 +143,7 @@ footer:
       # url: 
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url:  "https://github.com/cliffordEmmanuel"
+      # url:  
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
