@@ -20,7 +20,7 @@ title                    : "Clifford E. Akai-Nettey"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Clifford E. Akai-Nettey"
-description              : "Data Science Portfolio."
+description              : # ""
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -109,7 +109,7 @@ analytics:
 author:
   name             : "Clifford Emmanuel Akai-Nettey"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Data Science Portfolio"
+  bio              : "My Portfolio"
   location         : "Accra, Ghana"
   email            :
   links:
