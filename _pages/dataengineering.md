@@ -4,7 +4,7 @@ permalink: /data-engineering/
 title: "Data Engineering Posts by Tags"
 author_profile: true
 header:
-    image: ""
+    image: 
 ---
 
 {% include base_path %}
