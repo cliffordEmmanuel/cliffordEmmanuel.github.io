@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /data-engineering/
-title: "Data Engineering Posts by Tags"
+title: "Data Engineering Posts"
 author_profile: true
 header:
     image: 

@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 locale                   : "en-US"
 title                    : "Clifford E. Akai-Nettey"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "My portfolio"
 name                     : "Clifford E. Akai-Nettey"
 description              : # ""
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "Clifford E. Akai-Nettey"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/profile_pic"
   bio              : "My Portfolio"
   location         : "Accra, Ghana"
   email            :
