@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /data-engineering/
-title: "Data Engineering Posts"
+title: "Data Engineering Projects"
 author_profile: true
 header:
     image: 
