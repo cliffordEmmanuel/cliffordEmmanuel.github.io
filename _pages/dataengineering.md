@@ -1,13 +1,14 @@
 ---
-layout: archive
+layout: collection
 permalink: /data-engineering/
-title: "Data Engineering Projects"
+title: Data Engineering Projects
+entries_layout: grid
+classes: wide
 author_profile: true
 header:
     image: 
 ---
-
-
+\
 
 
 {% include base_path %}
