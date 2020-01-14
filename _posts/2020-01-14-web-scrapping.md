@@ -3,7 +3,7 @@ title: "Web Scrapping"
 date: 2020-01-14
 tags: [BeautifulSoup, pandas, scrapping]
 header:
-    image: images/puzzle
+    image: "images/puzzle"
 excerpt: "Using the beautifulsoup and requests python libraries real estate data was scrapped from the [meqasa](https://www.meqasa.com)", [view on github](https://github.com/cliffordEmmanuel/BlossomAcademy_DataEngineering/tree/master/project4)
 ---
 
