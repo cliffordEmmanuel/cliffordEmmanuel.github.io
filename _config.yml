@@ -26,6 +26,7 @@ theme_settings :
     youtube:
     facebook:
     instagram:
+    
 
   # Disqus
   disqus_shortname :
