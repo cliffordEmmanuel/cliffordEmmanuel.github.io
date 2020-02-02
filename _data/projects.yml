@@ -30,5 +30,8 @@
     image : # path: assets/project/
     date : 2020-02-01 
     title : End to End ETL Pipeline
-    summary : This project builds a typical end to end Extract Transform Load pipeline on a test data, using postgres, pyspark and AWS S3 bucket. https://github.com/cliffordEmmanuel/BlossomAcademy_DataEngineering/tree/master/project3 Click here to view on github</a> 
+    summary :  
     description :  
+    contents :
+        - title : End to End ETL Pipeline.
+          description : This project builds a typical end to end Extract Transform Load pipeline on a test data, using postgres, pyspark and AWS S3 bucket. https://github.com/cliffordEmmanuel/BlossomAcademy_DataEngineering/tree/master/project3 Click here to view on github</a>
