@@ -4,13 +4,13 @@
     url : https://github.com/cliffordEmmanuel/BlossomAcademy_DataEngineering/tree/master/project4 # Full URL
     image : "portfolio.png" # path: assets/project/
     date : 2020-01-14 
-    title : Web Scrapping with python
+    title : Web Scrapping real estate data.
     summary : Scrapping real estate data with beautiful soup and requests.
     description : 
     contents :
         - title : Web Scrapping
           # image : home.png
-          description : Using the beautifulsoup and requests python libraries real estate data was scrapped from the <a href="https://www.meqasa.com">meqasa</a>
+          description : Using the beautifulsoup and requests python libraries real estate data was scrapped from the real estate site meqasa. <a href="https://github.com/cliffordEmmanuel/BlossomAcademy_DataEngineering/tree/master/project4"> Click here to view on github</a> 
         # - title : 2. 태그 페이지
         #   image : tags.png
         #   description : <li>Responsive Layout</li> 
@@ -30,5 +30,5 @@
     image : # path: assets/project/
     date : 2020-02-01 
     title : End to End ETL Pipeline
-    summary : This project builds a typical end to end Extract Transform Load operation on a test data, using postgres, pyspark
+    summary : This project builds a typical end to end Extract Transform Load pipeline on a test data, using postgres, pyspark and AWS S3 bucket. https://github.com/cliffordEmmanuel/BlossomAcademy_DataEngineering/tree/master/project3 Click here to view on github</a> 
     description :  

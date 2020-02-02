@@ -14,21 +14,10 @@
     {% include icons.html %}
   </ul>
 </div>
-<!-- Tag Navigation -->
-<div id="tag-wrap">
-  <a href="{{ site.url }}/tags">
-    <p class="title">TAGS</p>
-  </a>
-  {% for tag in site.tags %}
-  <a href="{{site.baseurl}}/tags#{{ tag | first | cgi_encode }}">
-    <span class="tag">{{ tag | first }}</span>
-  </a>
-  {% endfor %}
-</div>
 <!-- Project -->
 <div id="proj-wrap">
   <a href="{{ site.url }}/portfolio#projects">
-    <p class="title">PROJECTS 🙋🏻 </p>
+    <p class="title">PROJECTS</p>
     <hr class="proj-hr">
     {% for _ in site.data.projects %}
     {% assign project = _.project %}
@@ -41,4 +30,15 @@
     {% endif %}
     {% endfor %}
   </a>
+</div>
+<!-- Tag Navigation -->
+<div id="tag-wrap">
+  <a href="{{ site.url }}/tags">
+    <p class="title">TAGS</p>
+  </a>
+  {% for tag in site.tags %}
+  <a href="{{site.baseurl}}/tags#{{ tag | first | cgi_encode }}">
+    <span class="tag">{{ tag | first }}</span>
+  </a>
+  {% endfor %}
 </div>
