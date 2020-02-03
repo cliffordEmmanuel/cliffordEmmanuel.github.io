@@ -76,7 +76,7 @@ Profile is displayed on the index page, and also experience and skills are displ
 
 ```
 profile :
-  image : assets/img/{prorile image}
+  image : assets/img/{profile image}
     username : {username}
     description : 
     experience :
