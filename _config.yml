@@ -1,5 +1,5 @@
 # Site Settings
-baseurl: "{subpath}"
+baseurl: ""
 url : "https://cliffordEmmanuel.github.io"
 
 # Blog Settings
