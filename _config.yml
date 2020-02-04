@@ -5,11 +5,11 @@ url : "https://cliffordEmmanuel.github.io"
 # Blog Settings
 theme_settings :
   title : Clifford's Portfolio
-  favicon : assets/favicon.ico
+  favicon : assets/favicon.png
 
   # Profile Settings
   profile :
-    image : assets/img/clifford.png
+    image : assets/img/clifford_pic.png
     username : Clifford E. Akai-Nettey
     description : Budding data engineer, python lover. I learned how to learn by teaching.
 
