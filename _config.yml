@@ -9,7 +9,7 @@ theme_settings :
 
   # Profile Settings
   profile :
-    image : assets/img/smile.png
+    image : assets/img/clifford.png
     username : Clifford E. Akai-Nettey
     description : Budding data engineer, python lover. I learned how to learn by teaching.
 
