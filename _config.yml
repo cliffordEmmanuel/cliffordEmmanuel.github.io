@@ -5,14 +5,13 @@ url : "https://cliffordEmmanuel.github.io"
 # Blog Settings
 theme_settings :
   title : Clifford's Portfolio
-  favicon : assets/img/favicon.png
+  favicon : assets/favicon.ico
 
   # Profile Settings
   profile :
-    image : assets/img/clifford_pic.png
+    image : assets/img/cliff_pic.png
     username : Clifford E. Akai-Nettey
-    description : Budding data engineer, python lover. I learned how to learn by teaching.
-
+    description : I'm aspiring to extract data and provide it in a format that can ease the job of the analysts and machine learners to drive business and social value. And I believe teachers rule this world
         
   # Icons
   icons :
