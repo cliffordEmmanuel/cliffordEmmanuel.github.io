@@ -10,8 +10,8 @@ theme_settings :
   # Profile Settings
   profile :
     image : assets/img/cliff_pic.png
-      username : Clifford E. Akai-Nettey
-      description : I'm aspiring to extract data and provide it in a format that can ease the job of the analysts and machine learners to drive business and social value. And I believe teachers rule this world
+    username : Clifford E. Akai-Nettey
+    description : I'm aspiring to extract data and provide it in a format that can ease the job of the analysts and machine learners to drive business and social value. And I believe teachers rule this world
         
   # Icons
   icons :
