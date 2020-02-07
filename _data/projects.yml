@@ -2,14 +2,14 @@
     print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
     url : https://github.com/cliffordEmmanuel/BlossomAcademy_DataEngineering/tree/master/project4 # Full URL
-    image : "portfolio.png" # path: assets/project/
+    image : "scrape.png" # path: assets/project/
     date : 2020-01-14 
     title : Web Scrapping real estate data.
     summary : Scrapping real estate data with beautiful soup and requests.
     description : 
     contents :
         - title : Web Scrapping
-          # image : home.png
+          image : scrape.png
           description : Using the beautifulsoup and requests python libraries real estate data was scrapped from the real estate site meqasa. <a href="https://github.com/cliffordEmmanuel/BlossomAcademy_DataEngineering/tree/master/project4"> Click here to view on github</a> 
         # - title : 2. 태그 페이지
         #   image : tags.png
@@ -27,11 +27,12 @@
     print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
     url :  https://github.com/cliffordEmmanuel/BlossomAcademy_DataEngineering/tree/master/project3
-    image : # path: assets/project/
+    image : etl.png # path: assets/project/
     date : 2020-02-01 
     title : End to End ETL Pipeline
     summary :  
     description :  
     contents :
         - title : End to End ETL Pipeline.
+          image : etl.png
           description : This project builds a typical end to end Extract Transform Load pipeline on a test data, using postgres, pyspark and AWS S3 bucket. https://github.com/cliffordEmmanuel/BlossomAcademy_DataEngineering/tree/master/project3 Click here to view on github</a>
