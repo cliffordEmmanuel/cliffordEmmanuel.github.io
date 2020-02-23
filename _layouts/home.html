@@ -1,22 +1,84 @@
 ---
+layout: page
+---
+{% assign profile = site.theme_settings.profile %}
+
+</div><!-- This Tag means End .container -->
+<div id="protfolio">
+  <section id="about-me">
+    <div class="row">
+      <div class="img-wrap col-12 col-md-4">
+        <div class="img">
+          <img src="{{ site.baseurl }}/{{ profile.image }}" alt="user_image">
+        </div>
+      </div>
+      <div class="text-wrap col-12 col-md-8">
+        <h2 class="username">{{ profile.username }}</h2>
+        <p class="description">{{ profile.description }}</p>
+
+        <ul id="icons">
+          {% include icons.html %}
+        </ul>
+      </div>
+    </div>
+    <div class="bg"></div>
+  </section>
+  <!-- career section -->
+  <section id="career" class="row">
+    <article class="exper col-12 col-md-6">
+      <p class="title"></p>
+      <ul class="exper-list">
+        {% for exp in  profile.experience %}
+        <li class="meta">
+          <p class="date">{{ exp.start }} ~ {{ exp.end }}</p>
+          <p class="description">{{ exp.experience }}</p>
+        </li>
+        {% endfor %}
+      </ul>
+    </article>
+    <article class="skills col-12 col-md-6">
+      <p class="title"></p>
+      <ul class="skill-list">
+        {% for _ in profile.skills %}
+        <li class="skill">
+          <p class="name">{{ _.skill }}</p>
+          <div class="progress">
+            <div class="progress-bar" style="width: {{ _.value }}%">
+              <div class="progress-value">{{ _.value }}%</div>
+            </div>
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+    </article>
+  </section>
+
+  {% include projects.html %}
+</div>
+
+
+
+
+
+<!-- ---
 layout: default
 ---
-<div id="home">
+<div id="home"> -->
   <!-- Responsive Header -->
-  <section id="header-nav">
+  <!-- <section id="header-nav">
     {% include header.html %}
   </section>
   <section id="header-content">
     <h1>{{ site.theme_settings.title }}</h1>
   </section>
   <section class="bg"></section>
-  <div class="row">
+  <div class="row"> -->
     <!-- Aside Navigation  -->
-    <aside id="aside" class="col-md-4">
+    <!-- <aside id="aside" class="col-md-4">
       {% include aside.html %}
-    </aside>
+    </aside> -->
     <!-- Post List -->
-    <section id="posts" class="col-md-8">
+    <!-- <section id="posts" class="col-md-8">
       {% for post in paginator.posts %}
       <div class="post">
         <a href="{{ post.url | relative_url }}">
@@ -51,9 +113,9 @@ layout: default
           </div>
         </a>
       </div>
-      {% endfor %}
+      {% endfor %} -->
       <!-- Pagination -->
-      {% if paginator.total_pages > 1 %}
+      <!-- {% if paginator.total_pages > 1 %}
       <div id="pagination">
         <ul>
           {% assign q = paginator.page | divided_by: 5 %}
@@ -90,4 +152,4 @@ layout: default
       {% endif %}
     </section>
   </div>
-</div>
+</div> -->
