@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Web scrapping real estate data with python
-subtitle : How markdown is displayed as html
-tags: [Python, Beautifulsoup, requests]
+title: Web scrapping real estate data.
+subtitle : Using 
+tags: [Pandas, BeautifulSoup, Requests]
 author: Clifford
 comments : True
 ---
 
 With the influx of data in these modern times, its quite suprising that methods for collecting data is not so apparent. Most software companies like facebook, twitter, google have brigded this divide and provided us data sharks with APIs to ease the process of accessing data. but not all internet companies share the same sentiments. for those we rely on the trusty tools of web scrapping.
 
-This post shows how to scrape real estate data from [meqasa](http://www.meqasa.com) using the python libraries: beautiful soup and requests without an API
+This project describes the process of scraping data from [meqasa](http://www.meqasa.com) using the python libraries: beautiful soup and requests without an API
 
 Web scrapping is the process of extracting information from the internet. It involves a lot of parsing and cleaning hence some basic knowledge of the following can go a long way to increase your efficiency:
 
@@ -30,7 +30,7 @@ Note the pattern that will allow you to iteratively pull all the remaining data 
 <br>
 
 
-
+<!-- 
 <h2>1. HTML headings</h2>
 {% highlight html %}
 <h1>This is heading 1</h1>
@@ -73,4 +73,4 @@ Note the pattern that will allow you to iteratively pull all the remaining data 
 | Header 1  | Header 2 | Header 3 |
 | :------- | :-------: | -------: |
 | Content 1 | Content 2 | Content 3 |
-| Content 1 | Content 2 | Content 3 |
+| Content 1 | Content 2 | Content 3 | -->
