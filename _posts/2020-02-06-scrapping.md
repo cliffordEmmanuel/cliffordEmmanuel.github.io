@@ -5,10 +5,11 @@ subtitle : Using
 tags: [Pandas, BeautifulSoup, Requests]
 author: Clifford
 comments : True
+image: assets/project/meqasa_scrape.jpg
 
 ---
 
-![Meqasa pic](/assets/project/meqasa_scrape.jpg)
+![Meqasa pic]()
 With the influx of data in these modern times, its quite suprising that methods for collecting data is not so apparent. Most software companies like facebook, twitter, google have brigded this divide and provided us data sharks with APIs to ease the process of accessing data. but not all internet companies share the same sentiments. for those we rely on the trusty tools of web scrapping.
 
 This project describes the process of scraping data from [meqasa](http://www.meqasa.com) using the python libraries: beautiful soup and requests without an API
