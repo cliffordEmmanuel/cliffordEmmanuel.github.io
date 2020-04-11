@@ -2,7 +2,7 @@
     print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
     url : https://github.com/cliffordEmmanuel/BlossomAcademy_DataEngineering/tree/master/project4 # Full URL
-    image : "scrape.png" # path: assets/project/
+    image : "scrape.jpg" # path: assets/project/
     date : 2020-01-14 
     title : Web Scrapping Real Estate data.
     summary : Scrapping real estate data with beautiful soup and requests.
@@ -27,7 +27,7 @@
     print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
     url :  https://github.com/cliffordEmmanuel/BlossomAcademy_DataEngineering/tree/master/project3
-    image : etl.png # path: assets/project/
+    image : etl.jpg # path: assets/project/
     date : 2020-02-01 
     title : End to End ETL Pipeline
     summary :  Implementing an ETL pipeline for a basic data procesing job.
