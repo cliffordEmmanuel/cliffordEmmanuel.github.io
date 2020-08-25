@@ -5,11 +5,10 @@ subtitle :  Why I'm learning to love it.
 tags: [Scraping, Python]
 author: Clifford
 comments : True
-
 ---
 
 ![webscrape](/assets/project/webscrape.jpg)
-##### Photo by [Nicolas Picard](https://unsplash.com/@artnok?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+Photo by [Nicolas Picard](https://unsplash.com/@artnok?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
 <br>
 
