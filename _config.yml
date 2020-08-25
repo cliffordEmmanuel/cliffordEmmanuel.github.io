@@ -11,7 +11,7 @@ theme_settings :
   profile :
     image : assets/img/profile-pic.jpg
     username : Clifford E. Akai-Nettey
-    description : Learning how to drive business and social value using Python, Excel and SQL.
+    description : Learning how to drive business and social value using Python and SQL.
         
   # Icons
   icons :

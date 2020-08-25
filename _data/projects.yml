@@ -1,11 +1,11 @@
 - project :
     print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal : False # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url : https://github.com/cliffordEmmanuel/BlossomAcademy_DataEngineering/tree/master/project4 # Full URL
+    url : https://github.com/cliffordEmmanuel/Exploring_Data_Engineering/tree/master/basic_web_scraping # Full URL
     image : "scrape.jpg" # path: assets/project/
-    date : 2019-12-05 
-    title : Web Scrapping Real Estate data.
-    summary : Scrapping real estate data with beautiful soup and requests.
+    date : 2020-08-20 
+    title : Web Scrapping APIless.
+    summary : Scraping an e-commerce site using requests and beautiful soup
     description : This is a basic project that just scrapes the first page of the site.
     contents :
         # - title : Web Scrapping
@@ -26,13 +26,12 @@
 - project :
     print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal : False # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url :  https://github.com/cliffordEmmanuel/BlossomAcademy_DataEngineering/tree/master/project3
+    url :  https://github.com/cliffordEmmanuel/Exploring_Data_Engineering/tree/master/basic_end_to_end_etl
     image : etl.jpg # path: assets/project/
-    date : 2019-12-20 
+    date : 2020-07-30 
     title : End to End ETL Pipeline
-    summary :  Implementing an ETL pipeline for a basic data procesing job.
-    description :  The ETL process is an Extract, Transform Load procedure that takes raw data, applies some
-                   basic transformations and loads the transformed data into a Postgres database.
+    summary :  Implementing an end to end ETL pipeline.
+    description :  I explore creating a full end to end pipeline that extracts data from a postgres db transforms it and loads the data back into a postgres db using pyspark
     contents :
         # - title : End to End ETL Pipeline.
         #   image : etl.png
