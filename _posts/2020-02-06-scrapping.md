@@ -8,10 +8,7 @@ comments : True
 ---
 
 ![webscrape](/assets/project/webscrape.jpg)
-Photo by [Nicolas Picard](https://unsplash.com/@artnok?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
-
 <br>
-
 
 At its core the process of scraping a particular website for data mimics how our browsers displays a particular webpage on our screen, except both are not so similar. When you type a url into your browser, typically the following steps occurs:
 - the browser searches the internet for the web page that belongs to the url you specified by placing a request 
@@ -20,12 +17,13 @@ At its core the process of scraping a particular website for data mimics how our
 
 In web scraping however, we intercept the response of the server and search through it to extract the data we need. So typically web scrapers take something out of a web page or a web resource. Data scientist, engineers and any curious person for that matter usually employs the tool of scraping in order to quickly generate a source of data.
 
+<br>
+
 ### Applications of web scraping
 
 Scraping is usually a component a bigger process and it helps to quickly gather lots of data. This ability makes that scraping can be applied in diverse ways. For instance a 17 year old Jewish boy [Avi Shiffman](https://www.timesofisrael.com/updated-every-minute-17-year-old-whiz-kids-coronavirus-site-used-by-millions/) built a [dashboard](https://ncov2019.live/) that provided real-time updates to the spread of the corona-virus by writing alot of website scrapers.
 
 <br>
-
 
 Some scenarios where scraping can be applied are:
 - Scrape product details (price, images, rating, reviews etc.) from retailer/manufacturer/eCommerce websites (Ex: Amazon, eBay, AliExpress, Alibaba etc.) to show on own websites, to provide price comparisons, to perform a price watch on competing sellers etc.
@@ -35,6 +33,8 @@ Some scenarios where scraping can be applied are:
 
 
 There are two ways of scraping and that heavily depends on whether the website/web application being scraped has an API or not.
+
+<br>
 
 ### Scraping with an API
 
@@ -66,7 +66,9 @@ Here you create everything from scratch. You’ll write your own methods to fetc
 
 <br>
 
-I hope you're inspired.
+I hope you're inspired. 
+Cover Photo by [Nicolas Picard](https://unsplash.com/@artnok?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+
 <br>
 
 
