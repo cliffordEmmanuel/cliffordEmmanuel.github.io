@@ -9,6 +9,8 @@ comments : True
 ---
 
 ![Meqasa pic](/assets/project/meqasa_scrape.jpg)
+<span>Photo by <a href="https://unsplash.com/@artnok?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Nicolas Picard</a> on <a href="https://unsplash.com/s/photos/web?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+
 At its core the process of scraping a particular website for data mimics how our browsers displays a particular webpage on our screen, except both are not so similar. When you type a url into your browser, typically the following steps occurs:
 - the browser searches the internet for the web page that belongs to the url you specified by placing a request 
 - a web server(just another computer located perhaps on another continent) responds to that request by and sends back the requested web page.
