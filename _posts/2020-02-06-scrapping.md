@@ -8,8 +8,9 @@ comments : True
 
 ---
 
-![Meqasa pic](/assets/project/meqasa_scrape.jpg)
-<span>Photo by <a href="https://unsplash.com/@artnok?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Nicolas Picard</a> on <a href="https://unsplash.com/s/photos/web?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+![webscrape](/assets/project/meqasa_scrape.jpg)
+Photo by [Nicolas Picard](https://unsplash.com/@artnok?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+
 
 At its core the process of scraping a particular website for data mimics how our browsers displays a particular webpage on our screen, except both are not so similar. When you type a url into your browser, typically the following steps occurs:
 - the browser searches the internet for the web page that belongs to the url you specified by placing a request 
@@ -30,12 +31,13 @@ Some scenarios where scraping can be applied are:
 - Scrape data from various Government websites, most of which do not provide an easy way to download the data which they display.
 
 
-There are basically two ways of scraping that heavily depends on whether the website/web application being scraped has an API or not.
-#### Scraping with an API
+There are two ways of scraping and that heavily depends on whether the website/web application being scraped has an API or not.
+
+### Scraping with an API
 
 Some web applications provide an API that enables one to easily access their data. Examples of such Twitter, Google search, LinkedIn etc. The advantage here is you’re provided with the methods you’ll need to access the data, and a lot of heavy lifting is done for you.  Other than that they may be some restrictions on how much info you can access and most have a payment structure.
 
-#### Scraping without an API
+### Scraping without an API
 
 Here you create everything from scratch. You’ll write your own methods to fetch the data and handle all the complexities yourself. But the advantage is that you’re basically unlimited in what kind of information you want and you can get it however you want. So yeah!! it’s freedom. Just that every website is different so you may have to write a script for each one that you want to scrape. Aside that some websites change frequently so your web scraper can become useless if there's a slight change in the website codes.
 
@@ -46,7 +48,8 @@ Here you create everything from scratch. You’ll write your own methods to fetc
 - Computer and good nternet
 - Patience(lots and lots of it)
 
-What ultimately makes scraping fun are:
+### So what makes it fun?
+
 - You can easily and quickly generate your own dataset for your personal research
 - Since you drive deep into the heart of the website or application, you get the chance to put your programming skills to the test
 - There's a surreal feeling of writing a single script and watching your database grow with data as your script dutifully downloads data for you.
