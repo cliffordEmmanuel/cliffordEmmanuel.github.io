@@ -4,9 +4,9 @@
     url : https://github.com/cliffordEmmanuel/Exploring_Data_Engineering/tree/master/basic_web_scraping # Full URL
     image : "scrape.jpg" # path: assets/project/
     date : 2020-08-20 
-    title : Web Scrapping APIless.
+    title : Web Scrapping API-less.
     summary : Scraping an e-commerce site using requests and beautiful soup
-    description : This is a basic project that just scrapes the first page of the site.
+    description : Using python requests and beautiful soup this project provides a multi-page scraper for an e-commerce site that does not have an API.
     contents :
         # - title : Web Scrapping
         #  image : scrape.png
