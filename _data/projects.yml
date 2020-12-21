@@ -56,7 +56,7 @@
     print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal : False # If 'True' is selected, modal can open in 'portfolio.html'. 
     url :  https://github.com/cliffordEmmanuel/Exploring_Data_Engineering/tree/master/pipelining_for_tweets_sentiment_analysis
-    image :  # path: assets/project/ image source: https://medium.com/python-in-plain-english/introduction-to-sentiment-analysis-using-python-nltk-library-f00c227ef56e
+    image :  twitter_sentiment.jpg # path: assets/project/ image source: https://medium.com/python-in-plain-english/introduction-to-sentiment-analysis-using-python-nltk-library-f00c227ef56e
     date : 2020-11-12 
     title : Twitter sentiment analysis - [in progress]
     summary :  Writing scripts for sentiment analysis.
