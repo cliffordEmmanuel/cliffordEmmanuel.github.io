@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Twitter sentiment analysis.
-subtitle :  An ELT pipeline that perform calculates sentiment score for tweets data using the NLTK library.
-tags: [JSON, twitter scraping, python]
+title: Sraping twitter.
+subtitle :  A guide to scraping twitter for tweets for sentiment analysis.
+tags: [ twitter-api, python, tweepy]
 author: Clifford
 comments : True
 ---
