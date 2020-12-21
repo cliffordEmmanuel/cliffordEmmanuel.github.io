@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sraping twitter.
+title: Scraping twitter.
 subtitle :  A guide to scraping twitter for tweets for sentiment analysis.
 tags: [ twitter-api, python, tweepy]
 author: Clifford
