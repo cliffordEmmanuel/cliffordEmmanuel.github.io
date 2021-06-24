@@ -9,7 +9,7 @@ theme_settings :
 
   # Profile Settings
   profile :
-    image : assets/img/profile-pic.jpg
+    image : assets/img/profile-pic.jpeg
     username : Clifford E. Akai-Nettey
     description : Data Engineer | Aspiring to be a Data Ops consultant
         
