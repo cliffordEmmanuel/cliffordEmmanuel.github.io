@@ -11,7 +11,7 @@ theme_settings :
   profile :
     image : assets/img/profile-pic.jpg
     username : Clifford E. Akai-Nettey
-    description : Learning how to drive business and social value using Python and SQL.
+    description : Data Engineer | Aspiring to be a Data Ops consultant
         
   # Icons
   icons :
