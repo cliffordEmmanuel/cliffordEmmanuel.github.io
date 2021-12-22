@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: post
 title: Azure Databricks.
 subtitle :  An introduction to Azure Databricks.
@@ -31,4 +31,4 @@ This series of posts would provide a beginner friendly style guide to working wi
     - Azure Dedicated DWH
 
 
-
+ -->
