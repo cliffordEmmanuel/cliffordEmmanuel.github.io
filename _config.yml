@@ -11,7 +11,7 @@ theme_settings :
   profile :
     image : assets/img/profile-pic.jpeg
     username : Clifford E. Akai-Nettey
-    description : Data Engineer | Aspiring to be a Data Ops consultant
+    description : Data Engineer | Curious about data
         
   # Icons
   icons :
@@ -21,7 +21,7 @@ theme_settings :
     gitlab: 
     bitbucket: 
     google_plus:
-    twitter:
+    twitter: ce_akainettey
     youtube:
     facebook:
     instagram:
