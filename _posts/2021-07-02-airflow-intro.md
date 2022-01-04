@@ -10,10 +10,10 @@ comments : True
 ## Basic description 
 
 Apache airflow is a platform for authoring, scheduling and monitoring workflows. It is useful in architecting and orchestrating data pipelines. You can think of it like an upgrade on cron jobs.
-All workflows are represented as <emp>Directed Acyclic Graphs(DAGs)</emp> which can be thought of as a collection of tasks.
+All workflows are represented as **Directed Acyclic Graphs(DAGs)** which can be thought of as a collection of tasks.
 
 ![airflow-ui](/assets/project/airflow-ui.png)
-<emp>Basic interface for ariflow this is useful for monitoring and testing dags</emp>
+*Basic interface for ariflow this is useful for monitoring and testing dags*
 
 <br>
 
@@ -25,14 +25,14 @@ So basic characteristics of a DAG are:
  - Acyclic: This means that no single task should point back to itself as we don't want to create infinite loops.
 
 ![basic-dag](/assets/project/basic-dag.png)
-<emp>An Image of a basic Dag</emp>
+*An Image of a basic Dag*
 
 <br>
 
 ## Control Flow
 
 As the case with regular pipelines, Dags are designed such that they can be run multiple times. 
-They can also be parameterised. Since a Dag is usually a collection of several tasks, these tasks have dependencies declared on each other. You’ll see this in a DAG either using the <br>>></br> and <br><<</br> operators.
+They can also be parameterised. Since a Dag is usually a collection of several tasks, these tasks have dependencies declared on each other. You’ll see this in a DAG either using the **>>** and **<<** operators.
 
 ## Operators:
 They define what a particular task should do. There are 3 main operators:
@@ -52,7 +52,10 @@ DAG
 
 <br>
 
+## Basic python script
+
 All Dags are created using python code and below is an example of a basic script:
+
 ```python
 """
 Example DAG 
@@ -79,3 +82,9 @@ if __name__ == "__main__":
     dag.cli()
 
 ```
+
+
+## *Sources*
+- https://airflow.apache.org/docs/apache-airflow/stable/concepts/overview.html#
+- https://www.astronomer.io/guides/intro-to-airflow
+
