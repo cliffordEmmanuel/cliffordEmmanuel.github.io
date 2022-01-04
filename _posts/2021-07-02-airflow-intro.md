@@ -10,10 +10,12 @@ comments : True
 ## Basic description 
 
 Apache airflow is a platform for authoring, scheduling and monitoring workflows. It is useful in architecting and orchestrating data pipelines. You can think of it like an upgrade on cron jobs.
-All workflows are represented as <br>Directed Acyclic Graphs(DAGs)</br> which can be thought of as a collection of tasks.
+All workflows are represented as <emp>Directed Acyclic Graphs(DAGs)</emp> which can be thought of as a collection of tasks.
 
 ![airflow-ui](/assets/project/airflow-ui.png)
-##### <emp>Basic interface for ariflow this is useful for monitoring and testing dags</emp>
+<emp>Basic interface for ariflow this is useful for monitoring and testing dags</emp>
+
+<br>
 
 ## Airflow DAGs concept:
 
@@ -23,7 +25,9 @@ So basic characteristics of a DAG are:
  - Acyclic: This means that no single task should point back to itself as we don't want to create infinite loops.
 
 ![basic-dag](/assets/project/basic-dag.png)
-##### <emp>An Image of a basic Dag</emp>
+<emp>An Image of a basic Dag</emp>
+
+<br>
 
 ## Control Flow
 
@@ -46,9 +50,10 @@ DAG
 
 ![dag-hierarchy](/assets/project/dag-hierarchy.png)
 
+<br>
 
 All Dags are created using python code and below is an example of a basic script:
-```
+```python
 """
 Example DAG 
 """
