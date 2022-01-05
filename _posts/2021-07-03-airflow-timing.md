@@ -14,6 +14,7 @@ Scheduling on airflow seems to have inherited a lot from crons and the timing sy
 
 `*  *  *  *  *`
 <br>
+
 This <emp>*</emp> acts like a place holder for the specific time periods. From left to right, they each represent the following:
 
 1. min (0-59)
@@ -23,44 +24,44 @@ This <emp>*</emp> acts like a place holder for the specific time periods. From l
 5. day of week ( 0-6, Sun - Sat)
 
 *Note that the Astericks \* means any or always*
+
 <br/>
+
 <hr/>
 
 # Examples
 
-- <emp>* 05 * * *</emp>
+- `* 05 * * *`
   This means the job should trigger at 5:00 am every day.
 
-- <emp>15 13 * * *</emp>
+- `15 13 * * *`
   This means the job should trigger at 01:15 pm every day.
 
-- <emp>15 13 * * *</emp>
+- `15 13 * * *`
   This means the job should trigger at 01:15 pm every day.
 
-- <emp>* * 1 1 *</emp>
+- `* * 1 1 *`
   This means the job should trigger on the every first day of January.
 
 
 # Literals
 
-## Comma(,)
+**Comma(,)**
 
-  This is used to specific different values on a single time period. For instance,
-  <emp>1,2,3 * * * *</emp>
-  This job would run at minute 1,2,3 minutes all the time.
+This is used to specific different values on a single time period. For instance,
+`1,2,3 * * * *`
+This job would run at 1,2,3 minutes all the time.
 
-## Hyphen(-)
+**Hyphen(-)**
 
-  This represents the range of values. For instance, 
-  <emp>* * * * 1-5</emp> 
-  This job would run every weekday ie Monday to Friday
+This represents the range of values. For instance, 
+`* * * * 1-5`
+This job would run every weekday ie Monday to Friday
 
-## Forward Slash (/)
+**Forward Slash(/)**
 
-  This represents step values or interval values
-
-  For example
-  <emp>*/5 *  *  *  *</emp>
-  This job would run after every 5 mins
+This represents step values or interval values. For instance,
+`*/5 *  *  *  *`
+This job would run after every 5 mins
 
 
