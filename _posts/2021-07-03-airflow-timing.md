@@ -37,8 +37,8 @@ This <emp>*</emp> acts like a place holder for the specific time periods. From l
 - `15 13 * * *`
   This means the job should trigger at 01:15 pm every day.
 
-- `15 13 * * *`
-  This means the job should trigger at 01:15 pm every day.
+- `5 0 * * 0`
+  This means the job should trigger at 00:05 am every sunday.
 
 - `* * 1 1 *`
   This means the job should trigger on the every first day of January.
