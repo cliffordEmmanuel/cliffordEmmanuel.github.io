@@ -8,10 +8,12 @@ comments : True
 ---
 
 
-Checking whether a directory is empty can be acheived using an if-else construct. It has the following syntax:
+Checking whether a directory is empty can be acheived using an if-else construct. 
+
+It has the following syntax:
 
 ```bash
-if [[ condition ]]
+if [[ condition ]] # there must be a space between the condition and the square brackets
 then
   <execute command>
 else # this is optional
@@ -19,10 +21,14 @@ else # this is optional
 fi # this closes the statement
 ```
 
+<br/>
+
+
 Condition for checking if empty:
 
-` -z "$(ls -A /path/to/dir/)" `
+`-z "$(ls -A /path/to/dir/)"`
 
+<br/>
 
 So in summary this can be achieved as follows:
 
@@ -32,9 +38,11 @@ temp_dir = "some-path"
 if [ -z "$(ls -A $temp_dir)" ]; then
    echo "$temp_dir empty"
 else
-    echo "Not Empty" &&
+    echo "Not Empty"
 fi
 ```
+
+<br/>
 
 
 ## Sources:
