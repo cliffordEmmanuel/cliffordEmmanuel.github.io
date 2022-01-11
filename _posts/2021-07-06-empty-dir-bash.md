@@ -47,5 +47,5 @@ fi
 
 ## Sources:
 
-- https://superuser.com/questions/352289/bash-scripting-test-for-empty-directory
-- https://devconnected.com/bash-if-else-syntax-with-examples/
+- <https://superuser.com/questions/352289/bash-scripting-test-for-empty-directory>
+- <https://devconnected.com/bash-if-else-syntax-with-examples/>

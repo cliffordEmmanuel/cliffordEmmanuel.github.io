@@ -96,6 +96,6 @@ if __name__ == "__main__":
 
 
 ## *Sources*
-- https://airflow.apache.org/docs/apache-airflow/stable/concepts/overview.html#
-- https://www.astronomer.io/guides/intro-to-airflow
+- <https://airflow.apache.org/docs/apache-airflow/stable/concepts/overview.html#>
+- <https://www.astronomer.io/guides/intro-to-airflow>
 
