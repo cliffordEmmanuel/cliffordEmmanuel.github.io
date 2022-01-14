@@ -18,9 +18,7 @@
     .post-content{
         overflow: hidden;
         margin-bottom: 100px;
-        -webkit-user-select:all;
-        -webkit-touch-callout:all;
-        -webkit-tap-highlight-color:rgba(0,0,0,0);
+        code{-webkit-user-select:all;-webkit-touch-callout:all;-webkit-tap-highlight-color:rgba(0,0,0,0)}
     }
 }
 .top-btn{
