@@ -79,5 +79,5 @@ WHERE ranked.column_1_ranked = 1;
 <br>
 
 ## _Sources:_
-- https://www.postgresqltutorial.com/postgresql-select-distinct/
-- https://gist.github.com/jmindek/62c50dd766556b7b16d6
+- <https://www.postgresqltutorial.com/postgresql-select-distinct/>
+- <https://gist.github.com/jmindek/62c50dd766556b7b16d6>
