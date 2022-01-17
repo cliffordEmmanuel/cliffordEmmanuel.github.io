@@ -2,7 +2,7 @@
 layout: post
 title: SQL distinct on
 subtitle : when to use it  
-tags: [PostgreSQL, redshift]
+tags: [PostgreSQL, redshift, sql]
 author: Clifford
 comments : True
 ---
