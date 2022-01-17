@@ -7,10 +7,9 @@ author: Clifford
 comments : True
 ---
 
-When i first saw `Order by 1` at the tail end of an sql script. I was terribly confused.
+When i first saw `Order by 1` at the tail end of an sql script. I was terribly confused....
 
 <br>
-
 
 ```sql
 Select 
@@ -35,11 +34,12 @@ It turns out it is not a good practice to use numbers to represent columns. So i
 
 <br>
 
-_So yeah this is what it means when you look at some old SQL script and use it sparingly._
+_So yeah this is what it means when you look at some old SQL script and please use it sparingly or better still not at all._
 
 <br>
 <br>
 
+<hr>
 
 ## _Sources:_
 - <https://stackoverflow.com/questions/3445118/what-is-the-purpose-of-order-by-1-in-sql-select-statement#:~:text=This%3A%20ORDER%20BY%201,It's%20not%20obvious%2Fexplicit?>
