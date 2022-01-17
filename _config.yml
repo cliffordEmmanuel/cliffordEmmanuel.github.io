@@ -31,7 +31,7 @@ theme_settings :
   disqus_shortname :
 
 # Pagination
-paginate: 5
+paginate: 3
 paginate_path: "blog/page:num"
 
 # Build Ssttings
