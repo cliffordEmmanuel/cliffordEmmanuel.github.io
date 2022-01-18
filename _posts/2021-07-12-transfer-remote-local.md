@@ -8,7 +8,6 @@ comments : True
 ---
 
 
-## Using SCP
 
 **SCP -  secure copy**. It is used to copy files between servers securely. The transfer can happen either between a local host and a remote host or between two remote hosts. SCP uses the same authentication and security procedure that is used by the SSH protocol.
 
@@ -16,17 +15,13 @@ comments : True
 
 The basic syntax is at follows:
 
-` 
-scp <username>@<source-host>:<path to file> <username>@<destination-host>:<path to store file>
-`
+`scp <username>@<source-host>:<path to file> <username>@<destination-host>:<path to store file>`
 
 <br>
 
 If you're on your local wanting to receive a file from a remote server:
 
-`
-scp username@remote-host:/path/to/file /path/to/store
-`
+`scp <username>@<remote-host>:/path/to/file /path/to/store`
 
 <br>
 
