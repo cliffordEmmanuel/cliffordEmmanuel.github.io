@@ -7,7 +7,8 @@ author: Clifford
 comments : True
 ---
 
-When i first saw `Order by 1` at the tail end of an sql script. I was terribly confused....
+
+When i first saw `Order by 1` at the tail end of an sql script. I was terribly confused.
 
 <br>
 
