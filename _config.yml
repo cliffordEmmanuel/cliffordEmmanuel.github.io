@@ -25,13 +25,14 @@ theme_settings :
     youtube:
     facebook:
     instagram:
+    medium:
     
 
   # Disqus
   disqus_shortname :
 
 # Pagination
-paginate: 3
+paginate: 4
 paginate_path: "blog/page:num"
 
 # Build Ssttings
