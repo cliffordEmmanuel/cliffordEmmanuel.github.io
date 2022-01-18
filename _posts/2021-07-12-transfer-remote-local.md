@@ -15,13 +15,13 @@ comments : True
 
 The basic syntax is at follows:
 
-`scp <username>@<source-host>:<path to file> <username>@<destination-host>:<path to store file>`
+`scp <username>@<source-host>:<path to file>   <username>@<destination-host>:<path to store file>`
 
 <br>
 
 If you're on your local wanting to receive a file from a remote server:
 
-`scp <username>@<remote-host>:/path/to/file /path/to/store`
+`scp <username>@<remote-host>:/path/to/file   /path/to/store`
 
 <br>
 
