@@ -19,6 +19,9 @@ When joining strings in redshift we can use these options:
 Syntax: `Select <column containing string1> || <column containing string2>`  
   
 You can add an extra `|| <column containing string3>` and more to concatenate multiple strings
+
+<br>
+
 <br>
 
 **The concat() function**   
