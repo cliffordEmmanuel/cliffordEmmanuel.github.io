@@ -2,7 +2,7 @@
 layout: post
 title: String concatenation in Redshift
 subtitle :  
-tags: [redshfit]
+tags: [redshift]
 author: Clifford
 comments : True
 ---
