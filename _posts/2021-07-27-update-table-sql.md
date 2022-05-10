@@ -27,4 +27,4 @@ I've had to ran an update on an existing table for an instance where the logic f
 <hr>
 
 ## _Source:_  
-- https://chartio.com/learn/sql-tips/how-to-update-a-column-based-on-a-filter-of-another-column/
+- <https://chartio.com/learn/sql-tips/how-to-update-a-column-based-on-a-filter-of-another-column/>
