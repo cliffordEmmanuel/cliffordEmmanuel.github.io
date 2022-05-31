@@ -12,12 +12,10 @@ I ran into an issue one time where a query which worked fine on dbeaver through 
 <br>
 
 Error message was something along these lines:
-
 `TypeError: 'dict' object does not support indexing`.
 
 <br>
-
-After some digging I found the issue had to do with my use `%` in several case statements. Apparently `%` is not parsed as expected by SQLAlchemy. The fix was just to double the sign ie.`%%`
+After some digging I found the issue had to do with my use `%` in several case statements. Apparently `%` is not parsed as expected by SQLAlchemy and the fix was just to double the sign ie.`%%`
 
 <br>
 
