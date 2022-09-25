@@ -67,3 +67,16 @@
         #   image : etl.png
         #   description : This project builds a typical end to end Extract Transform Load pipeline on a test data, using postgres, pyspark and AWS S3 bucket. https://github.com/cliffordEmmanuel/BlossomAcademy_DataEngineering/tree/master/project3 Click here to view on github</a>
 
+- project :
+    print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal : False # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url :  https://github.com/cliffordEmmanuel/stringify
+    image : stringify.jpg # path: assets/project/
+    date : 2022-06-30 
+    title : Stringify!
+    summary :  Converts objects to strings.
+    description :  This desktop app converts a collection of objects into string versions, it also supports adding a delimeter for each object.
+    contents :
+        # - title : 
+        #   image : 
+        #   description : 
