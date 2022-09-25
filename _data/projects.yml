@@ -2,7 +2,7 @@
     print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal : False # If 'True' is selected, modal can open in 'portfolio.html'. 
     url :  https://github.com/cliffordEmmanuel/stringify
-    image : stringify.jpg # path: assets/project/
+    image : stringify.png # path: assets/project/
     date : 2022-06-30 
     title : Stringify!
     summary :  Converts objects to strings.
