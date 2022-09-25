@@ -16,7 +16,7 @@ theme_settings :
   # Icons
   icons :
     email:  cliffemmanuels@gmail.com
-    linkedin:  https://medium.com/@ce_akainettey
+    linkedin:  https://www.linkedin.com/in/cliffordemmanuelakai-nettey/
     github: cliffordEmmanuel
     gitlab: 
     bitbucket: 
@@ -25,7 +25,7 @@ theme_settings :
     youtube:
     facebook:
     instagram:
-    medium: ce_akainettey
+    medium: https://medium.com/@ce_akainettey
     
 
   # Disqus
