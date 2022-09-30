@@ -1,6 +1,21 @@
 - project :
     print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal : False # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url :  https://github.com/cliffordEmmanuel/cleanup-click
+    image : cleanup_with_click.png # path: assets/project/
+    date : 2022-10-30 
+    title : Cleanup with Click!
+    summary :  Organises messy folders.
+    description :  Using click, this cli app organises messy folders, by putting similary files into folders. 
+    ie all documents into a Document folder, images into Images folder etc.
+    contents :
+        # - title : 
+        #   image : 
+        #   description : 
+
+- project :
+    print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal : False # If 'True' is selected, modal can open in 'portfolio.html'. 
     url :  https://github.com/cliffordEmmanuel/stringify
     image : stringify.png # path: assets/project/
     date : 2022-06-30 
