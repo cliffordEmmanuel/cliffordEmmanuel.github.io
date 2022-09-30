@@ -6,7 +6,7 @@
     date : 2022-10-30 
     title : Cleanup with Click!
     summary :  Organises messy folders.
-    description :  Using click, this cli app organises messy folders, by putting similary files into folders. ie all documents into a Document folder, images into Images folder etc.
+    description :  Using click, this cli app organises messy folders, by putting similar files into folders. ie all documents into a Document folder, images into Images folder etc.
     contents :
         # - title : 
         #   image : 
