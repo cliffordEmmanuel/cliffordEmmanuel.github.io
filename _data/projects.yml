@@ -1,6 +1,20 @@
 - project :
     print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal : False # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url :  https://github.com/cliffordEmmanuel/heart-disease-prediction
+    image : heart-disease-pred.png # path: assets/project/
+    date : 2025-05-30 
+    title : Heart Disease Prediction!
+    summary :  Predicting heart disease.
+    description :  This project uses machine learning to predict the likelihood of heart disease in patients based on various health metrics.
+    contents :
+        # - title : 
+        #   image : 
+        #   description : 
+
+- project :
+    print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal : False # If 'True' is selected, modal can open in 'portfolio.html'. 
     url :  https://github.com/cliffordEmmanuel/cleanup-click
     image : cleanup_with_click.png # path: assets/project/
     date : 2022-10-30 
