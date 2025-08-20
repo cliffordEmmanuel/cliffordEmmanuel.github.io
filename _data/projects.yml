@@ -15,6 +15,34 @@
 - project :
     print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal : False # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url :  https://github.com/cliffordEmmanuel/house-prices-prediction
+    image : comparative_analysis_2.png # path: assets/project/
+    date : 2025-01-07 
+    title : Predicting House Prices; MLR vs RFR
+    summary :  Comparing Multiple Linear Regression (MLR) and Random Forest Regression (RFR) for house price prediction.
+    description :  This project compares the performance of Multiple Linear Regression (MLR) and Random Forest Regression (RFR) algorithms in predicting house prices.
+    contents :
+        # - title : 
+        #   image : 
+        #   description : 
+
+- project :
+    print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal : False # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url :  https://github.com/cliffordEmmanuel/classification-comparison
+    image : comparative_analysis_1.png # path: assets/project/
+    date : 2025-01-06 
+    title : Predicting Heart Disease; SVC vs Random Forest!
+    summary :  Comparing SVC and Random Forest for heart disease prediction.
+    description :  This project compares the performance of Support Vector Classifier (SVC) and Random Forest algorithms in predicting heart disease.
+    contents :
+        # - title : 
+        #   image : 
+        #   description : 
+
+- project :
+    print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal : False # If 'True' is selected, modal can open in 'portfolio.html'. 
     url :  https://github.com/cliffordEmmanuel/cleanup-click
     image : cleanup_with_click.png # path: assets/project/
     date : 2022-10-30 

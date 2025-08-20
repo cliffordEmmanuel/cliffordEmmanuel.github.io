@@ -13,7 +13,6 @@ Heart disease remains one of the leading causes of death worldwide. Early diagno
 
 This post summarizes my project: applying different ML algorithms to a clinical dataset to see how well they could predict the presence of heart disease.
 
----
 
 ## The Dataset
 
@@ -25,7 +24,6 @@ Why this dataset?
 * The size (1k+ records) is manageable yet complex enough to apply multiple techniques.
 * It includes both categorical and numerical features, which means meaningful preprocessing steps are required.
 
----
 
 ## Approach
 
@@ -54,7 +52,6 @@ I followed a typical **data science workflow**:
    * Used accuracy, precision, recall, F1-score, and ROC-AUC.
    * Applied **5-fold cross-validation** and **GridSearchCV** for hyperparameter tuning.
 
----
 
 ## Results
 
@@ -68,7 +65,6 @@ Interestingly, the most predictive features included:
 * **Maximum heart rate achieved** (higher stress response linked to risk).
 * **Number of major vessels** and **thalassemia type** (clear clinical indicators).
 
----
 
 ## Insights
 
@@ -76,19 +72,18 @@ Interestingly, the most predictive features included:
 * **Cross-validation was critical** — early models showed near-perfect scores that looked like overfitting, but validation confirmed generalizability.
 * Some findings challenged medical intuition, such as younger patients showing more heart disease in this dataset. This highlights the need for broader, more representative datasets.
 
----
 
 ## Future Directions
 
 To extend this project, I would:
 
-* Consider hybrid techniques
-* Compare the results with the published articles on the same dataset
+* Consider hybrid techniques.
+* Compare the results with the published articles on the same dataset.
+* Increase the training set size.
 * Integrate **Explainable AI tools** (like SHAP or LIME) so clinicians can understand *why* the model makes predictions.
 * Expand the dataset with multi-institutional records for stronger generalization.
 * Explore **deep learning models** for non-linear relationships and time-series clinical data.
 
----
 
 ## Conclusion
 
