@@ -7,11 +7,6 @@ author: Clifford
 comments : True
 ---
 
-
-Great! Here’s a **blog-style draft** of your heart disease ML project, written to be engaging for your portfolio audience but still showcasing research depth:
-
----
-
 # Can Machine Learning Help Predict Heart Disease?
 
 Heart disease remains one of the leading causes of death worldwide. Early diagnosis can save lives, but traditional methods of risk assessment often depend on limited clinical tests or subjective interpretation. With the growing availability of health data, I wanted to explore whether **machine learning (ML) techniques** could assist in predicting heart disease risk more accurately.
